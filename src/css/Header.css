@@ -1,0 +1,49 @@
+* {
+    color: white;
+}
+.mw {
+    max-width: 1200px;
+    width: calc(100% - 2rem);
+    margin: auto;
+}
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+  }
+
+header h1 {
+    font-size: 3rem;
+    margin: auto;
+    transition: 0.5s;
+  }
+
+header nav {
+    display: flex;
+    align-items: flex-end;
+    justify-items: flex-end;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+}
+header nav a,
+.category a{
+    transition: 0.5s;
+}
+  
+
+.category {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
+header h1:hover ,
+header a:hover,
+.category a:hover{
+    color: tomato;
+}
+  
